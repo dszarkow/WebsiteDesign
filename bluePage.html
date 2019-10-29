@@ -1,11 +1,43 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Blue Page</title>
+  <title>Blue Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+  <style type="text/css">
+  
+  body {
+	 background-color: blue;
+	}
+	
+  </style>
 </head>
+<body>
 
-<body bgcolor="blue">
-    <h1>This is the Blue content page.</h1>
+<div class="container-fluid">
+  <h1>My Blue Page</h1>
+  <p>This is some text.</p>
+  
+  <button>Click me</button>
+  
+</div>
+
+<script>
+$(document).ready(function(){
+
+  $("button").click(function(){
+    $("p").hide();
+  });
+  
+});
+</script>
+
 </body>
 
 </html>
